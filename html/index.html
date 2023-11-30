@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css">
+    <title>songify</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Search Box CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+    <div class="song_side">
+        <div class="topnav">
+            <a class="active" href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+            <a href="history.html"><i class="fa-solid fa-clock-rotate-left"></i>History</a>
+            <a href="Myaccount.html"><i class="fa-regular fa-user"></i>My account</a>
+          </div>
+      <div class="menu_side">
+        <div class="ScriptTop">
+            <div class="rt-container">
+                <div class="col-rt-4" id="float-right">
+        
+                </div>
+                
+            </div>
+        </div>
+        
+        <header class="ScriptHeader">
+            <div class="rt-container">
+        </header>
+        
+        <section>
+            <div class="rt-container">
+                  <div class="col-rt-12">
+                      <div class="Scriptcontent">
+                      
+                <!-- Start Search box -->
+        <div class="searchBox">
+        
+                    <input class="searchInput"type="text" name="" placeholder="Search any Song, Artist, Genre">
+                    <button class="searchButton" href="search.html">
+                        <i class="material-icons">
+                            search
+                        </i>
+                    </button>
+                </div>
+        <!-- End Search Box  -->
+                    
+                   
+                    </div>
+                </div>
+            </div>
+        </section>
+             
+      <div class="h21">
+        <h1>
+            <center>My music</center>
+        </h1>
+    </div>
+          <div class="playlist">
+              <h4><span></span><label for="playlist">Playlist</label>
+                <!--<select name="playlist" id="playlisti1">
+                  <option value="sad">Sad</option>
+                  <option value="happy">Happy</option>
+                  <option value="chill">Chill</option>
+                  <option value="nature">Nature</option>
+                </select>-->
+                </h4>
+              <h4><span></span>Last listening</h4>
+              <h4><span></span>Recommended</h4>
+              <h4><span></span>Genre</h4>
+          </div>
+      </div>
+        <div class="music-player">
+            <h1 class="music-name">junz</h1>
+           <!--<p class="artist-name">tadi</p> --> 
+           <audio src=""></audio>
+            <div class="disk"></div>
+            <div class="song-slider">
+              <input type="range" value="0" class="seek-bar">
+            </div>
+            <div class="buttons">
+              <button class="play-button"><i class="fa-solid fa-play"></i></button>
+              <button class="pause-button"><i class="fa-solid fa-pause"></i></button>
+              <button class="rewind-button"><i class="fa-solid fa-backward"></i></button>
+              <button class="forward-button"><i class="fa-solid fa-forward"></i></button>
+                
+            </div>
+          </div>
+      <script src="app.js">
+
+      </script>
+  </header>
+</body>
+</html>

@@ -1,0 +1,222 @@
+body{
+    widows: 100%;
+    height: 100%;
+    background-color: #adad95;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+header{
+    width: 85%;
+    height: 95%;
+    font-size: 100%;
+    display: flex;
+    align-self: center;
+    padding-left: 20%;
+    padding-top: 3%;
+}
+.topnav {
+    background-color: #061320;
+    height: 95px;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    font-size: 50px;
+        font-weight: 20;
+        padding-right: 25px;
+        color: #9b9b9b;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        transition: .3s linear;
+        text-decoration: none;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color: rgb(255, 255, 255);
+  }
+  .topnav a span{
+    position: relative;
+    margin-right: 35px;
+}
+ .topnav a span::before{
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    top: -4px;
+    transition: .3s linear;
+}
+.topnav a span::before :hover{
+    border: 2px solid #ffffff;
+}
+.topnav a i #fa-solid fa-house{
+    margin-right: 20px;
+    color: gainsboro;
+  }
+header .menu_side, .h21{
+    text-emphasis: none;
+    text-align: left;
+}
+header .menu_side, .song_side {
+    position: relative;
+    width: 25%;
+    height: 90%;
+    background-color: #061320;
+    color: #ffffff;
+    }
+    
+    header .song_side{
+        width: 75%;
+        background-color: #061320;
+
+    } 
+   
+    header .menu_side h1{
+        font-size: 20px;
+        margin: 15px 0px 0px 20px;
+        font-weight: 500;
+    
+    }
+    
+    header .menu_side .playlist{
+        margin: 40px 0pc 0px 20px;
+        margin-right: 20%;}
+ 
+    header .menu_side .playlist h4{
+        font-size: 14px;
+        font-weight: 400;
+        padding-bottom: 10px;
+        color: #4c5262;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        transition: .3s linear;
+    }
+    header .menu_side .playlist h4:hover{
+      color: #ffffff;
+    }
+    header .menu_side .playlist h4 span{
+        position: relative;
+        margin-right: 35px;
+    }
+    header .menu_side .playlist h4 span::before{
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        border: 2px solid #4c5262;
+        border-radius: 50%;
+        top: -4px;
+        transition: .3s linear;
+    }
+    header .menu_side .playlist h4:hover span::before:hover{
+        border: 2px solid #ffffff;
+    }
+  .music-player {
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3%;
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+  
+  .music-name {
+    font-size: 150%;
+  }
+  
+  .artist-name {
+    font-size: 16px;
+    padding-left: 4%;
+  }
+  
+  .disk {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+  }
+  
+  .song-slider {
+    width: 50%;
+    padding-left: 5%;
+  }
+  
+  .seek-bar {
+   width:100%;
+   height:5px;
+   border-radius:10px;
+   background:#363636;
+   overflow:hidden;
+   cursor:pointer; 
+  }
+  
+  .seek-bar::-webkit-slider-thumb {
+   -webkit-appearance:none; 
+   width:1px; 
+   height:20px; 
+   box-shadow:-400px -400px #ffffff; 
+  }
+  
+  .buttons {
+    display: flex;
+    padding: 10%;
+  }
+  
+  .play-button,
+  .pause-button,
+  .rewind-button,
+  .forward-button {
+    width: .5em;
+    height: .5em;
+    margin-right: 10px;
+    cursor: pointer;
+    top:-50%;
+    left:-50%;
+  }
+  
+  .play-button::before {
+   content:'';
+   position:absolute;
+  }
+  
+  .pause-button::before {
+   content:'';
+   position:absolute;
+   background:#fff; 
+  }
+  .pause-button::after {
+   content:'';
+   position:absolute;
+     }
+  
+  .rewind-button::before {
+   content:'';
+   position:absolute;
+   
+  }
+  .rewind-button::after {
+   content:'';
+   position:absolute;}
+
+  
+  .forward-button::before {
+   content:'';
+   position:absolute;
+   
+  }
+  .forward-button::after {
+   content:'';
+   position:absolute; 
+  }
+
+
+  
